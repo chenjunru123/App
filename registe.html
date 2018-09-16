@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/rem.css">
+	<link rel="stylesheet" href="css/regise.css">
+</head>
+<body>
+	<div class="big-bg">
+		<a href="sign.html">
+			<button class="registe">登录</button>
+		</a>
+		<div class="bottom">
+			<div class="block">
+				<!-- 输入用户名 -->
+				<div class="user">
+					<img src="img/lingxing.png" alt="">
+					<h2>USERNAME</h2>
+				</div>
+				<div class="user-block">
+					<img src="img/user-pic.png" alt="">
+					<input class="user" type="text" placeholder="请输入手机号或者账号">
+					<img class="yes" src="img/yes.png" alt="">
+				</div>
+				<div class="dot">
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+					<div class="middle-dot"></div>
+				</div>
+				<!-- 获取验证码 -->
+				<div class="user">
+					<img src="img/lingxing.png" alt="">
+					<h2>Verification Code</h2>
+				</div>
+				<div class="user-block">
+					<img src="img/yzm.png" alt="">
+					<input class="user" type="text">
+					<img class="yes" src="img/yes.png" alt="">
+					<div class="code">获取验证码</div>
+					<div class="code1"><span>45</span>秒后重新获取</div>
+				</div>
+				<!-- 密码 -->
+				<div class="user">
+					<img src="img/lingxing.png" alt="">
+					<h2>PASSWORD</h2>
+				</div>
+				<div class="user-block">
+					<img src="img/mima-pic.png" alt="">
+					<input class="user" type="password" placeholder="请输入密码">
+					<img class="yes" src="img/yes.png" alt="">
+				</div>
+				<a href="sign.html">
+					<button class="btn">注册</button>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+<script>
+	window.onload=function () {
+		let huoqu=document.querySelector(".code");
+        let huoqu1=document.querySelector(".code1");
+        let sub=document.querySelector(".block .btn");
+        let inputs=document.querySelectorAll("input.user");
+        console.log(inputs);
+        huoqu.onclick=function () {
+            huoqu.style.display="none";
+            huoqu1.style.display="block";
+		}
+            //获取span标签
+            let span=document.querySelector(".code1 span");
+        // 获取span标签中的内容
+            let num=span.innerHTML;
+            // console.log(num);
+            //创建时间间隔函数，每隔1s执行一次回调函数
+            var t=setInterval(fn,1000);
+            function fn() {
+                //时间--
+                num--;
+                //如果时间减为0
+                if(num==0){
+                    //清除时间间隔函数
+                    clearInterval(t);
+                    //跳转到登录页面
+                    huoqu.style.display="block";
+                    huoqu1.style.display="none";
+                }
+                //改变span中的数字
+                span.innerHTML=num;
+            }
+		inputs.onblur=function () {
+            if(inputs.value!==""){
+                sub.style.background="#FFB036";
+            }
+        }
+
+
+
+    }
+
+</script>

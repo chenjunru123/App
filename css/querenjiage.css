@@ -1,0 +1,453 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "苹方","微软雅黑","宋体","楷体";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*.bg{*/
+	/*width: 100%;*/
+	/*height: 100%;*/
+	/*background: rgba(250,250,250,0.1);*/
+	/*position: relative;*/
+	/*top:0;*/
+	/*left: 0;*/
+	/*z-index: 10;*/
+/*}*/
+/*.bg .top{
+	width:4.20rem;
+	height: 5.24rem
+	background:red;
+	margin:0 auto 0 auto;
+}*/
+header{
+	width: 100%;
+	height: 3.08rem;
+	/*background-color: #fe95dc;*/
+	background: linear-gradient(to right,#fe97dd,#fb71d0);
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	/*display: flex;*/
+	/*justify-content:space-between;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}
+header .left-top{
+	width: 0.48rem;
+	height: 0.68rem;
+	/*background-color: orange;*/
+	padding-top: 0.24rem;
+	position: relative;
+	float: left;
+}
+header .left-top i{
+	width: 0.24rem;
+	height: 0.44rem;
+	color: #fff;
+	position: absolute;
+	top:0.24rem;
+	left:0;
+}
+header .right-top{
+	width: 1rem;
+	height: 0.68rem;
+	/*background-color: orange;*/
+	padding-top: 0.24rem;
+	position: relative;
+	float: right;
+}
+header .right-top i{
+	font-size: 0.28rem;
+	color: #fff;
+	position: absolute;
+	top:0.24rem;
+	right:0;
+}
+header .right-top img{
+	width: 0.38rem;
+	height: 0.38rem;
+	position: absolute;
+	top:0.24rem;
+}
+header .middle{
+	width: 100%;
+	height: 2rem;
+	/*background: green;*/
+	margin-top:0.68rem;
+	display: flex;
+	flex-direction: row;
+}
+header .middle .left{
+	width:2.16rem;
+	height: 1.84rem;
+	/*background: orange;*/
+	background-image:url(../img/21.png);
+	background-size: 1.84rem 1.84rem;
+	background-repeat: no-repeat;
+	background-position: 0.2rem 0;
+}
+header .middle .right{
+	width: 5.34rem;
+	height: 2rem;
+	/*background:red;*/
+
+}
+header .middle .right h1{
+	font-size: 0.34rem;
+	color: #fff;
+	margin-left: 0.26rem;
+}
+header .middle .right h2{
+	font-size: 0.26rem;
+	width: 4rem;
+	color: #fff;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-weight: 200;
+	margin-top:0.08rem;
+	margin-left: 0.26rem;
+}
+header .middle .right .star{
+	width: 2.38rem;
+	height: 0.24rem;
+	/*background: yellow;*/
+	margin-top:0.1rem;
+	margin-left: 0.22rem;
+	display: flex;
+	flex-direction: row;
+}
+header .middle .right .star .good{
+	width: 1.46rem;
+	height: 0.24rem;
+	/*background:yellow;*/
+	display: flex;
+	justify-content: center;
+
+}
+header .middle .right .star .good p{
+	font-size: 0.32rem;
+	color: white;
+	margin-top: -0.1rem;
+	margin-left: -0.2rem;
+}
+header .middle .right .star .text{
+	width: 0.92rem;
+	height: 0.24rem;
+	background: #fff;
+	border-radius: 0.4rem;
+	margin-top: 0.02rem;
+}
+header .middle .right .star .text p{
+	font-size: 0.32rem;
+	color: #fc78d2;
+	margin-top: -0.1rem;
+	margin-left: 0.2rem;
+}
+header .middle .right .song{
+	width: 2.18rem;
+	height: 0.25rem;
+	background:#9de874;
+	margin-top:0.25rem;
+	margin-left: 0.22rem;
+}
+header .middle .right .song p{
+	font-size: 0.16rem;
+	color: #fff;
+	margin-top: -0.1rem;
+	margin-left: 0.2rem;
+}
+header .bottom{
+	width: 7.02rem;
+	height: 0.4rem;
+	margin-right:0.24rem;
+	/*background-color: green;*/
+	display: flex;
+	flex-direction: row;
+	position: relative;
+
+}
+header .bottom .left{
+	width: 0.36rem;
+	height: 0.4rem;
+	background-color: #9de874;
+	margin-left: 0.5rem;
+	margin-top: -0.1rem;
+}
+header .bottom .left p{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 0.4rem;
+	text-align: center;
+}
+header .bottom .middle{
+	width: 4.46rem;
+	height: 100%;
+	margin-left: 0.2rem;
+	/*background-color: red;*/
+	margin-top:0;
+}
+header .bottom .middle h1{
+	font-size: 0.22rem;
+	color: #fff;
+	line-height: 0.2rem;
+	text-align: right;
+	margin-left: 0.2rem;
+}
+select{
+	width: 1.5rem;
+	height: 100%;
+	border:none;
+	position: absolute;
+	right: -0.05rem;
+	background-color:#fc79d2;
+	/*bottom:0.05rem;*/
+	margin-top: -0.1rem;
+}
+select  option{
+	background-color:  #fff;
+}
+main{
+	width: 100%;
+	height: 100%;
+	/*background-color: red;*/
+	margin-top: 3.08rem;
+	margin-bottom: 0.98rem;
+	overflow: hidden;
+}
+main .list{
+	width: 2.28rem;
+	height:5.81rem;
+	background-color: #f4f4f4;
+	float: left;
+	/*overflow: scroll;*/
+}
+
+main .list ul li{
+	width: 100%;
+	height:0.97rem;
+	background:#f4f4f4;
+/*	border:0.1rem solid #333;*/
+
+}
+main .list ul li h1{
+	font-size: 0.34rem;
+	color: #333;
+	text-align: center;
+	line-height: 0.98rem;
+	font-weight: 200;
+}
+main .list ul li:nth-child(2){
+	background:#fe95dc;
+}
+main .list ul li h2{
+	color: #fff;
+	font-size: 0.34rem;
+	text-align: center;
+	line-height: 0.98rem;
+	font-weight: 200;
+}
+main .content{
+	width: calc(100% - 2.28rem);
+	height:calc(100% - 4.18rem);
+	/*background-color:pink;*/
+	float: left;
+	/*多余的部分出现滚动条*/
+	overflow: scroll;
+	padding-left: 0.24rem;
+	padding-right:0.24rem;
+}
+main .content ul li{
+	width: 4.74rem;
+	height:1.71rem;
+	background:#fff;
+	/*border:0.01rem solid #;*/
+	box-shadow: 0 0 0.3rem 0.13rem rgba(250,112,199,0.5);
+	margin:0.4rem auto 0.2rem;
+	background-image:url(../img/28.png);
+	background-size: 0.36rem;
+	background-position: 4.2rem 0;
+	background-repeat: no-repeat;
+}
+main .content ul li:nth-child(2){
+	background-image:url(../img/99.png);
+	background-size: 0.8rem 0.3rem;
+	background-position: 3.9rem 0;
+}
+main .content ul li .picture{
+	width: 1.54rem;
+	height: 100%;
+	/*background-color: red;*/
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .content ul li .right{
+	width: 3.20rem;
+	height: 100%;
+	/*background-color: green;*/
+	float: right;
+	/*padding-top: 0.47rem;*/
+/*	display: flex;
+	flex-direction: column;
+	justify-content: space-between;*/
+}
+main .content ul li .picture img{
+	width: 1.16rem;
+	height: 1.35rem;
+}
+main .content ul li .right h6{
+	font-size: 0.26rem;
+	color: #484646;
+}
+main .content ul li .right h5{
+	font-size: 0.1rem;
+	color: #b4b4b4;
+}
+main .content ul li .right h4{
+	font-size: 0.18rem;
+	color: #b4b4b4;
+	margin-top: 0.1rem;
+}
+main .content ul li .right .money{
+	width: 100%;
+	height: 0.32rem;
+	/*background: orange;*/
+	margin-top: 0.06rem;
+	display: flex;
+	flex-direction: row;
+}
+main .content ul li .right .money .left{
+	width: 1.6rem;
+	height: 100%;
+	/*background: yellow;*/
+	margin-top: -0.1rem;
+}
+main .content ul li .right .money .left p{
+	font-size: 0.18rem;
+	color: #b4b4b4;
+	text-align:left;
+	line-height: 0.45rem;
+}
+main .content ul li .right .money .right{
+	width: calc(100% - 1.6rem);;
+	height: 100%;
+	/*background: green;*/
+	display: flex;
+	flex-direction: row;
+	margin-top: -0.1rem;
+}
+main .content ul li .right .money .right p{
+	font-size: 0.32rem;
+	color: #ff2d63;
+	margin-top: -0.05rem;
+	margin-left: 0.4rem;
+}
+main .content ul li .right .money .right h1{
+	font-size: 0.20rem;
+	color: #ff2d63;
+	margin-top: 0.06rem;
+    margin-left: 0.03rem;
+}
+main .content ul li .right .zhekou{
+	width: 2.26rem;
+	height: 0.2rem;
+	/*background: yellow;*/
+	display: flex;
+	flex-direction: row;
+}
+main .content ul li .right .zhekou .left{
+	width: 0.65rem;
+	height: 100%;
+	background: #ff2d63;
+}
+main .content ul li .right .zhekou .right{
+	width: calc(100% - 0.65rem);
+	height: 100%;
+	background: #fff;
+	border:0.01rem solid #ff2d63;
+	display: flex;
+	flex-direction: row;
+}
+main .content ul li .right .zhekou .left p {
+	font-size: 0.16rem;
+	color: #fff;
+	text-align: center;
+	line-height: 100%;
+}
+main .content ul li .right .zhekou .right p {
+	font-size: 0.16rem;
+	color: #ff2d63;
+	margin-left: 0.1rem;
+	line-height: 100%;
+}
+footer{
+	width: 7.02rem;
+	height: 1.10rem;
+	box-shadow: 0 0 0.3rem 0.13rem rgba(250,112,199,0.5);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #fff;
+	margin-left:0.27rem;
+	display: flex;
+	flex-direction: row;
+	/*position: relative;*/
+}
+footer .left{
+	width: 4.28rem;
+	height: 100%;
+	/*background: red;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column; 
+
+}
+footer .right{
+	width: 2.74rem;
+	height: 100%;
+	background: #fe95dc;
+}
+footer .left p{
+	font-size: 0.36rem;
+	color: #fe95dc;
+}
+footer .left h1{
+	font-size: 0.36rem;
+	color: #fe95dc;
+}
+footer .right p{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 1.10rem;
+	text-align:center;
+}
+.car{
+	height: 0.6rem;
+	width: 0.6rem;
+	position: fixed;
+	bottom: 0.8rem;
+	left: 0.6rem;
+}
+/*main .content ul li .jia{
+	height: 0.4rem;
+	width: 0.4rem;
+	margin-left: 0.5rem;
+	position: absolute;
+    left: 6.2rem
+}*/

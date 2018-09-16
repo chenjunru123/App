@@ -1,0 +1,186 @@
+/*
+* @Author: lenovo
+* @Date:   2018-08-14 17:58:03
+* @Last Modified by:   lenovo
+* @Last Modified time: 2018-08-17 17:31:51
+*/
+body{
+	background-image: url('../img/102.png');
+	background-position: -2.2rem -0.2rem;
+	background-repeat: no-repeat;
+	background-size: 10.5rem 17.34rem;
+}
+.big-bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	/*background-color: rgba(0, 0, 0, 0.4);*/
+	z-index: 2;
+}
+.big-bg button.registe{
+	width: 1rem;
+	height: 0.5rem;
+	border-radius: 0.3rem;
+	background-color: #ffb036;
+	color: #fff;
+	font-size: 0.3rem;
+	line-height: 0.5rem;
+	font-weight: 600;
+	float: right; 
+	border: none;
+	margin-top: 0.3rem;
+	margin-right: 0.2rem;
+	outline: none;
+}
+.big-bg .bottom{
+	width: 100%;
+	height: 9.8rem;
+	/*background-image: url('../back.png');*/
+	background-size: 100% 100%;
+	background-position: center center;
+	position: fixed;
+	bottom: 0;
+}
+.big-bg .bottom img.pic1{
+	display: block;
+	width: 2.53rem;
+	height: 2.53rem;
+	position: fixed;
+	top: 5rem;
+	left: 2.5rem;
+	z-index: 3;
+}
+/*.big-bg .bottom img.pic2{*/
+	/*width: 103%;*/
+	/*height: 7.7rem;*/
+	/*margin-left: -0.1rem;*/
+	/*position: fixed;*/
+	/*bottom: 0;*/
+	/*left: 0;*/
+/*}*/
+.big-bg .bottom .block{
+	width: 100%;
+	height: 6.3rem;
+	/* background-color: yellow; */
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 1.35rem;
+}
+.big-bg .bottom .block .user{
+	display: flex;
+	margin-top: 0.2rem;
+}
+.big-bg .bottom .block .user img{
+	margin-top: 0.1rem;
+	width: 0.35rem;
+	height: 0.2rem;
+}
+.big-bg .bottom .block .user h2{
+	font-size: 0.3rem;
+	color: #ffb23a;
+	font-weight: 600;
+	margin-left: 0.3rem;
+}
+.big-bg .bottom .block .user-block{
+	/* height: 1rem; */
+	display: flex;
+	align-items: flex-start;
+	margin-top: 0.3rem;
+	/* justify-content: space-between; */
+}
+.big-bg .bottom .block .user-block img{
+	width: 0.55rem;
+	height: 0.55rem;
+}
+.big-bg .bottom .block .user-block input.user{
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+	border: none;
+	outline: medium;
+	border-bottom:0.02rem solid #e5e5e5 ;
+	font-size: 0.2rem;
+}
+.big-bg .bottom .block .user-block input.users{
+	margin-top: 0.2rem;
+	margin-left: 0.3rem;
+	border: none;
+	outline: medium;
+	border-bottom:0.02rem solid #e5e5e5 ;
+	font-size: 0.2rem;
+}
+.big-bg .bottom .block .user-block img.yes{
+	margin-top: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	display: none;
+}
+.big-bg .bottom .block .user-block img.yes1{
+	margin-top: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	display: none;
+}
+.big-bg .bottom .block .user-block img.no{
+	margin-top: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	display: none;
+}
+.big-bg .bottom .block .user-block img.no1{
+	margin-top: 0.2rem;
+	width: 0.3rem;
+	height: 0.3rem;
+	margin-left: 0.3rem;
+	display: none;
+}
+.big-bg .bottom .block .reme{
+	display: flex;
+	margin-top: 0.2rem;
+	justify-content: flex-end;
+}
+.big-bg .bottom .block .reme .wjmm{
+	width: 0.3rem;
+	height: 0.3rem;
+}
+.big-bg .bottom .block .reme p{
+	font-size: 0.14rem;
+	margin-left: 0.1rem;
+	line-height: 0.3rem;
+	color:#fff;
+}
+.big-bg .bottom .block button.btn{
+	width: 1.5rem;
+	height: 0.6rem;
+	border-radius: 0.3rem;
+	background-color: #8f8f8f;
+	color: #fff;
+	font-size: 0.2rem;
+	font-weight: 600;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0.2rem;
+	outline: none;
+}
+.big-bg .bottom .block img.bottom{
+	width: 3.4rem;
+	height: 0.2rem;
+	margin-bottom: 1.5rem;
+	display: block;
+	margin-left: 0.9rem;
+}
+.big-bg .bottom .block .footer{
+	display: flex;
+	justify-content: space-between;
+}
+.big-bg .bottom .block .footer img{
+	width: 0.8rem;
+	height: 0.8rem;
+	margin-top: 0.9rem;
+}

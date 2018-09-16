@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: "苹方","微软雅黑","宋体","楷体";
+}
+a{
+	text-decoration: none;
+}
+i{
+	font-style: normal;
+}
+header{
+	width: 100%;
+	height: 1.8rem;
+	/*background:red;*/
+	background-image: url(../img/53.png);
+	background-repeat: no-repeat;
+	background-size: 7.50rem 1.8rem;
+	display: flex;
+	flex-direction:column;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	padding: 0.24rem;
+}
+header .top{
+	width: 0.24rem;
+	height: 0.34rem;
+	/*background: red;*/
+	background-image:url(../img/54.png);
+	background-size: 0.24rem 0.34rem;
+	background-repeat: no-repeat;
+}
+header h1{
+	font-size: 0.36rem;
+	color: #fff;
+	margin-top:0.24rem;
+	margin-left: 0.24rem;
+}
+.body{
+	width: 7.02rem;
+	height: 2.32rem;
+	margin:1.8rem auto 0 auto;
+	padding: 0.24rem;
+	background: #fff;
+	box-shadow: 0 0 0.3rem 0.1rem rgba(250,112,199,0.2);
+	display: flex;
+	flex-direction: row;
+}
+.body .pic{
+	width: 1.84rem;
+	height: 1.84rem;
+	background:#fff;
+	box-shadow: 0 0 0.3rem 0.1rem rgba(250,112,199,0.2);
+	background-image: url(../img/58.png);
+	background-size: 1.84rem 1.84rem;
+}
+.body .word{
+	width: 4.7rem;
+	height: 1.84rem;
+	/*background-color: red;*/
+	display: flex;
+	flex-direction: column;
+	padding: 0.24rem;
+}
+.body h1{
+	font-size: 0.24rem;
+	color: #fc85d6;
+	line-height: 0.48rem;
+	display: block;
+	margin:0;
+	height: 0.48rem;
+	margin-top:0.2rem;
+	}
+.body h2{
+	font-size: 0.24rem;
+	color: #fc85d6;
+	line-height: 0.48rem;
+	display: block;
+	margin:0;
+	height: 0.48rem;
+}
+.display{
+	height: 1.4rem;
+	width: 7.02rem;
+	/*background-color: red;*/
+	margin:0.24rem;
+	padding: 0 0.24rem 0 0.24rem;
+}
+.display h1{
+	font-size: 0.16rem;
+	color: #fd8ad9;
+	font-weight: 600;
+	text-align: center;
+}
+.display h2{
+	font-size: 0.16rem;
+	color: #fd8ad9;
+	font-weight: 600;
+	text-align: center;
+	display: block;
+	margin-top: 0.1rem;
+}
+.display .btn{
+	width: 6.54rem;
+	height: 0.5rem;
+	margin-top: 0.1rem;
+	/*background-color: orange;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 0.72rem 0 0.72rem;
+}
+.display .btn .left{
+	width: 2.3rem;
+	height: 0.5rem;
+	background-color: #fd8ad9;
+	border-radius: 0.2rem;
+}
+.display .btn .right{
+	width: 2.3rem;
+	height: 0.5rem;
+	background-color: #fd8ad9;
+	border-radius: 0.2rem;
+}
+.display .btn .left h1{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.5rem;
+	text-align: center;
+}
+.display .btn .right h2{
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.5rem;
+	text-align: center;
+	margin:0;
+}
+.bot{
+	width: 100%;
+	height: 12.40rem;
+	/*background-color: pink;*/
+	padding:0 0 0 0.24rem;
+}
+.bot .title{
+	width: 100%;
+	height: 0.38rem;
+	/*background-color: pink;*/
+	display: flex;
+	flex-direction:column;
+}
+.bot .title h1{
+	font-size: 0.24rem;
+	color: #4d4d4e;
+	font-weight: 600;
+	display: block;
+}
+.bot .title h2{
+	font-size: 0.24rem;
+	color: rgba(0,0,0,0.4);
+	font-weight: 400;
+	display: block;
+	margin-top: -0.25rem;
+}
+.bot ul{
+	width: 100%;
+	height: 11.77rem;
+	/*background-color: red;*/
+	padding-top: 0.24rem;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.bot ul li{
+	width: 46.6%;
+	height: 3.6rem;
+	background-color: #fff;
+	box-shadow: 0 0 0.3rem 0.05rem rgba(250,112,199,0.2);
+	padding: 0.24rem;
+	margin-right: 0.24rem;
+}
+.bot ul li img{
+	width: 100%;
+	margin:0 auto 0 auto;
+}
+.bot ul li h1{
+	font-size: 0.18rem;
+	color: #4d4d4e;
+	text-align: center;
+	margin-bottom: 0.06rem;
+}
+.bot ul li h2{
+	font-size: 0.14rem;
+	color: #b9b9bb;
+	text-align: center;
+	margin-bottom: 0.15rem;
+	/*margin-bottom: 0.33rem;*/
+}
+.bot ul li .money{
+	width: 100%;
+	height: 0.35rem;
+	/*background-color: red;*/
+	display: flex;
+	flex-direction:row;
+	margin-top: -0.1rem;
+}
+.bot ul li .money .left{
+	width: 50%;
+	height: 0.25rem;
+	/*background-color:yellow;*/
+	display: flex;
+	flex-direction:row;
+}
+.bot ul li .money .left h3{
+	font-size: 0.24rem;
+	color: #f81952;
+}
+.bot ul li .money .left h4{
+	font-size: 0.20rem;
+	color: #f81952;
+	margin-left: 0.06rem;
+	margin-top:0.05rem;
+}
+.bot ul li .money .right{
+	width: 50%;
+	height: 0.35rem;
+	/*background-color:green;*/
+	background-image: url(../img/51.png);
+	background-size: 0.35rem 0.35rem;
+	background-repeat: no-repeat;
+	background-position: 1.1rem -0.02rem;
+}
