@@ -232,16 +232,29 @@ main .content ul li{
 	border-bottom: 0.01rem solid #b6bab8;
 	display: flex;
 	flex-direction: row;
-	background-image: url(../img/64.png);
-	background-repeat: no-repeat;
-	background-size: 0.42rem 0.42rem;
-	background-position: 6.1rem 0.45rem; 
+	/*background-image: url(../img/64.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 0.42rem 0.42rem;*/
+	/*background-position: 6.1rem 0.45rem;*/
+	position: relative;
 }
-main .content ul li:nth-child(2){
-	background-image: url(../img/65.png);
-	background-repeat: no-repeat;
-	background-size: 0.42rem 0.42rem;
-	background-position: 6.1rem 0.45rem; 
+/*main .content ul li:nth-child(2){*/
+	/*background-image: url(../img/65.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 0.42rem 0.42rem;*/
+	/*background-position: 6.1rem 0.45rem; */
+/*}*/
+main .content ul li .iconfont{
+	position: absolute;
+	right:0.04rem;
+	top:0.45rem;
+	font-size: 0.42rem;
+	color: #A7A7A7;
+
+
+}
+main .content ul li .iconfont.active{
+	color:#fd85d7 ;
 }
 main .content ul li img{
 	width: 0.7rem;

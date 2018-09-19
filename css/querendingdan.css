@@ -182,6 +182,7 @@ header .body h6{
     color: #fd85d7;
     line-height: 1.11rem;
     margin-left: 3.4rem;
+	cursor: pointer;
 }
 .time .bottom img{
 	width: 0.3rem;
@@ -199,6 +200,7 @@ main{
 	display: flex;
 	flex-direction: column;
 	padding: 0.24rem;
+	opacity: 1;
 }
 main h1{
 	font-size: 0.32rem;
@@ -477,4 +479,112 @@ footer .pay h4{
 	color: #fff;
 	text-align: center;
 	line-height: 0.7rem;
+}
+.yincang{
+	position: absolute;
+	top:5rem;
+	z-index: 10;
+	display: none;
+}
+.tanchu{
+	width: 7.02rem;
+	height: 6.80rem;
+	background:#fff;
+	/*box-shadow: 0 0 0.3rem 0.1rem rgba(250,112,199,0.2);*/
+	margin:0.24rem;
+	padding: 0.24rem;
+	border-radius: 0.15rem;
+}
+.tanchu .content{
+	width: 100%;
+	height: 100%;
+	/*background: red;*/
+	display: flex;
+	flex-direction: column;
+}
+.tanchu .content .top{
+	width: 100%;
+	height: 1rem;
+	position: relative;
+	/*background: green;*/
+	/*background-image: url(../img/59.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 0.24rem 0.24rem;*/
+	/*background-position: 6.2rem 0.35rem;*/
+}
+.tanchu .content .top img{
+	width: 0.24rem;
+	height: 0.24rem;
+	position: absolute;
+	top:35%;
+	right: 0.2rem;
+}
+.tanchu .content .top h1{
+	font-size: 0.36rem;
+	color: #383637;
+	text-align: center;
+	line-height: 1rem;
+	height: 1rem;
+}
+.tanchu .content ul{
+	width: 100%;
+	height: 5.12rem;
+}
+.tanchu .content ul li{
+	width: 100%;
+	height: 25%;
+	/*background:pink;*/
+	border-bottom: 0.01rem solid #b6bab8;
+	display: flex;
+	flex-direction: row;
+	/*background-image: url(../img/64.png);*/
+	/*background-repeat: no-repeat;*/
+	/*background-size: 0.42rem 0.42rem;*/
+	/*background-position: 6.1rem 0.45rem;*/
+	position: relative;
+}
+/*main .content ul li:nth-child(2){*/
+/*background-image: url(../img/65.png);*/
+/*background-repeat: no-repeat;*/
+/*background-size: 0.42rem 0.42rem;*/
+/*background-position: 6.1rem 0.45rem; */
+/*}*/
+.tanchu .content ul li .iconfont{
+	position: absolute;
+	right:0.04rem;
+	top:0.45rem;
+	font-size: 0.42rem;
+	color: #A7A7A7;
+
+
+}
+.tanchu .content ul li .iconfont.active{
+	color:#fd85d7 ;
+}
+.tanchu .content ul li img{
+	width: 0.7rem;
+	height: 0.7rem;
+	margin:auto 0;
+}
+.tanchu .content ul h1{
+	font-size: 0.28rem;
+	color: #585858;
+	line-height: 1.3rem;
+	height: 1.3rem;
+	margin-left: 0.3rem;
+}
+.foot{
+	height: 1rem;
+	width: 6.7rem;
+	background: #fd8ad9;
+	border-radius: 0.2rem;
+	margin: 0.26rem auto ;
+}
+.foot h1{
+	font-size: 0.36rem;
+	color: #fff;
+	line-height: 1rem;
+	text-align: center;
+	margin: 0 auto;
+	height:1rem;
 }

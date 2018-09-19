@@ -16,6 +16,58 @@ body,html{
 	height: 100%;
 	overflow: hidden;
 }
+.zhezhao{
+	width: 4.5rem;
+	height: 5.5rem;
+	background: #f074c9;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:  auto;
+	z-index: 50;
+	border-radius: 0.3rem;
+	box-shadow: 0 0 0 10rem rgba(255,255,255,0.5);
+display: none;
+	cursor: pointer;
+}
+.zhezhao .top{
+	width: 100%;
+	height: 70%;
+}
+.zhezhao .top img{
+	width: 100%;
+	height: 90%;
+	display: block;
+	border-radius: 0.3rem;
+}
+.zhezhao .bottom{
+	width: 100%;
+	height: 30%;
+	padding: 0 0.2rem 0.2rem 0.2rem;
+}
+.zhezhao .bottom h1{
+	font-size: 0.36rem;
+	color: white;
+	text-align: left;
+	margin: 0;
+	margin-top: -0.2rem;
+}
+.zhezhao .bottom .pic{
+	height: 0.28rem;
+	display: flex;
+}
+.zhezhao .bottom img{
+	width: 0.28rem;
+	height: 0.28rem;
+	display: block;
+	margin-top: 0.2rem;
+}
+.zhezhao .bottom h2{
+	color: white;
+	font-size: 0.28rem;
+}
 header{
 	width: 100%;
 	height: 3.08rem;
